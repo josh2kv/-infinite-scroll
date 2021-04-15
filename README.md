@@ -4,8 +4,8 @@
 
 ## 1. 소개 및 특징
 
-- unsplash API로 사진들을 10장씩 무작위로 받아 출력 (https://unsplash.com/)
-- 스크롤을 내리다가 맨 아래 꿑에 가까워지면 스크롤이 맨 아래 닿기 전에 다시 사진 10장을 요청하고 받아 그 아래에 추가
+- unsplash API로 사진들을 10장씩 무작위로 요청 받아 출력 (https://unsplash.com/)
+- 스크롤을 내리다가 맨 아래 끝에 가까워지면 스크롤이 맨 아래 닿기 전에 다시 사진 10장을 요청하고 받아 그 아래에 추가
 - loading spinner: customized SVG파일를 다운로드 받아 삽입 (https://loading.io/)
 - 반응형
 
