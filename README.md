@@ -33,14 +33,14 @@ setAttribute(anchorElement, { href: photo.links.html, target: '_blank' });
 
 - 사용자가 스크롤을 내리다가 남은 스크롤 길이가 1000보다 작아지고 이전에 요청했던 사진들이 로딩완료 됐으면 새로이 사진들을 요청하여 출력
   - 처음 본 window + 스크롤 한 만큼 = 사용자가 그 동안 스크롤을 내려서 본 만큼의 길이
-  - 사진 (count \* n)장이 출력된 전체 길이 - 1000 = 스크롤 끝에 도달하기 1000px전  
-* imageLoadingComplete() 함수와 ready 변수로 요청한 사진이 전부 로드되었는지 확인  
-<br/>
-> **Window.innerHeight** : the interior height of the window in pixels  
->  **Window.scrollY** : the number of pixels that the document is currently scrolled vertically  
->  **HTMLElement.offsetHeight** : the height of an element(body)  
->  Source: https://developer.mozilla.org/ 
+  - 사진 (count \* n)장이 출력된 전체 길이 - 1000 = 스크롤 끝에 도달하기 1000px전
 
+* imageLoadingComplete() 함수와 ready 변수로 요청한 사진이 전부 로드되었는지 확인
+<br/><br/>
+> **Window.innerHeight** : the interior height of the window in pixels  
+    **Window.scrollY** : the number of pixels that the document is currently scrolled vertically  
+    **HTMLElement.offsetHeight** : the height of an element(body)  
+    Source: https://developer.mozilla.org/
 
 ```javascript
 window.addEventListener('scroll', () => {
